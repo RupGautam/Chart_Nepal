@@ -1,2 +1,2 @@
 #Chart_Nepal
-<img src="//imgur.com/a/ezaHf.png">
+<img src="https://imgur.com/ezaHf.png">
