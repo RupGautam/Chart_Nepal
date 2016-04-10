@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+
+<head>
+   <title>Nepal Chart.js Collection</title>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.js"></script>
+</head>
+
+<body>
+   <header>
+      <h1>Population Distribution By District - Census 2011</h1> </header>
+   <canvas id="district"></canvas>
+</body>
+<script>
+   var barData = {
+      labels: ["Taplejung", "Panchthar", "Ilam", "Jhapa", "Morang", "Sunsari", "Dhankuta", "Terhathum", "Sankhuwasabha", "Bhojpur", "Solukhumbu", "Okhaldhunga", "Khotang", "Udayapur", "Saptari", "Siraha", "Dhanusa", "Mahottari", "Sarlahi", "Sindhuli", "Ramechhap", "Dolakha", "Sindhupalchok", "Kavrepalanchok", "Lalitpur", "Bhaktapur", "Kathmandu", "Nuwakot", "Rasuwa", "Dhading", "Makwanpur", "Rautahat", "Bara", "Parsa", "Chitawan", "Gorkha", "Lamjung", "Tanahu", "Syangja", "Kaski", "Manang", "Mustang", "Myagdi", "Parbat", "Baglung", "Gulmi", "Palpa", "Nawalparasi", "Rupandehi", "Kapilbastu", "Arghakhanchi", "Pyuthan", "Rolpa", "Rukum", "Salyan", "Dang", "Banke", "Bardiya", "Surkhet", "Dailekh", "Jajarkot", "Dolpa", "Jumla", "Kalikot", "Mugu", "Humla", "Bajura", "Bajhang", "Achham", "Doti", "Kailali", "Kanchanpur", "Dadeldhura", "Baitadi", "Darchula"],
+      datasets: [{
+         fillColor: "#e74c3c",
+         data: [127461, 191817, 290254, 812650, 965370, 763487, 163412, 101577, 158742, 182459, 105886, 147984, 206312, 317532, 639284, 637328, 754777, 627580, 769729, 296192, 202646, 186557, 287798, 381937, 468132, 304651, 1744240, 277471, 43300, 336067, 420477, 420477, 687708, 601017, 579984, 271061, 167724, 323288, 289148, 492098, 6538, 13452, 113641, 146590, 268613, 280160, 261180, 643508, 880196, 571936, 197632, 228102, 224506, 208567, 242444, 552583, 491313, 426576, 350804, 261770, 171304, 36700, 108921, 136948, 55286, 50858, 134912, 195159, 257477, 211746, 775709, 451248, 142094, 250898, 133274],
+      }]
+   }
+   var ctx = document.getElementById("district").getContext("2d");
+   var barChartDemo = new Chart(ctx).Bar(barData, {
+      responsive: true,
+      barValueSpacing: 2
+   });
+</script>
+<p>Source : National Population and Housing Census 2011, CBS, Nepal.</p>
+
+</html>
