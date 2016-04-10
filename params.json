@@ -1,6 +1,6 @@
 {
   "name": "Chart nepal",
   "tagline": "Fun project with Chart.js ",
-  "body": "#Chart_Nepal\r\n\r\n###   Population List By District\r\n<img src=\"http://i.imgur.com/b8Dmgmd.png\">\r\n\r\n##   Literacy Rate By District\r\n<img src=\"http://i.imgur.com/FbIIr3P.png\">",
+  "body": "#Chart_Nepal\r\n\r\n\r\nPopulation List By District [[chart demo](http://rupgautam.github.io/Chart_Nepal/population_by_district.html)]\r\n<img src=\"http://i.imgur.com/b8Dmgmd.png\">\r\n\r\nLiteracy Rate By District [[chart demo](http://rupgautam.github.io/Chart_Nepal/literacy_rate_by_district.html)]\r\n<img src=\"http://i.imgur.com/FbIIr3P.png\">",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
